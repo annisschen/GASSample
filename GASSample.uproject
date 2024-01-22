@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{FA0DB72D-4E75-86F1-DEF4-A999BB3CDF8F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GASSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"GameplayAbilities"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	]
+}
